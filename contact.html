@@ -33,21 +33,29 @@
 >
     
                 <h3> GET IN TOUCH</h3><h3> CALL: 08035988889, 08139763301, 08150861023</h3>
+    <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mgeqggqg"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email" placeholder="Email Address" required>
+  </label>
+     <label>
+    Phone number:
+    <input type="number" name="phone" placeholder="Phone number here" required>
+  </label>
+  <label>
+    How can we help you:
+    <textarea name="message"> row="4" placeholder="message" required</textarea>
+  </label>
     
-    <label> 
-        <input type="text" id="name" placeholder="Your Name" required>
-    </label>
-    <label>
-        <input type="email" id="email" placeholder="Email Address" required>
-    </label>
-    <label>
-        <input type="text" id="phone" placeholder="Phone no." required>
-    </label>
-                <label>
-                    <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
-    </label> 
-                <button type="submit">Send</button>
-            </form>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    
+    
             
         
     </body>
